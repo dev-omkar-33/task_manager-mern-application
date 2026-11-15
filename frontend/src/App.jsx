@@ -1,7 +1,7 @@
 import React from "react";
 import {Routes,Route,Link} from 'react-router';
 import Login from './Pages/Login';
-// import Register from "./Pages/Register";
+import Register from "./Pages/Register";
 // import Notes from "./Pages/Notes";
 // import AI_Assistant from "./Pages/AI_Assistand";
 // import Dashboard from "./Pages/Dashboard";
@@ -16,6 +16,7 @@ export default function App() {
 
     <Routes>
       <Route path="/" element={<Login/>}></Route>
+       <Route path="/Register" element={<Register/>}></Route>
     </Routes>
     </>
   )
